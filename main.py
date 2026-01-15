@@ -1,7 +1,5 @@
 # ================== SOZLAMALAR ==================
 import os
-
-import os
 import telebot
 from telebot import types
 
@@ -12,9 +10,6 @@ ADMIN_ID = 5938434244
 
 if not TOKEN:
     raise ValueError("TOKEN topilmadi (ENV)")
-
-bot = telebot.TeleBot(TOKEN)
-ADMIN_ID = 5938434244
 
 bot = telebot.TeleBot(TOKEN)
 
